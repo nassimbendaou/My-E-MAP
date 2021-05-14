@@ -1,0 +1,19 @@
+.app .title-wrap {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.app .title {
+  font-size: 38px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.app .subtitle {
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}

@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.company.p-organizationchart .p-organizationchart-node-content.p-person {
+  padding: 0;
+  border: 0 none;
+}
+
+.node-header,
+.node-content {
+  padding: 0.5em 0.7em;
+}
+
+.node-header {
+  background-color: #495ebb;
+  color: #ffffff;
+}
+
+.node-content {
+  text-align: center;
+  border: 1px solid #495ebb;
+}
+
+.node-content img {
+  border-radius: 50%;
+}
+
+.department-cfo {
+  background-color: #7247bc;
+  color: #ffffff;
+}
+
+.department-coo {
+  background-color: #a534b6;
+  color: #ffffff;
+}
+
+.department-cto {
+  background-color: #e9286f;
+  color: #ffffff;
+}
+
+.p-organizationchart .p-highlight {
+  background-color: orange;
+}
+
+.p-person .p-node-toggler {
+  color: #495ebb !important;
+}
+
+.department-cto .p-node-toggler {
+  color: #8a0a39 !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#estlogo {
+  width: 50px;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

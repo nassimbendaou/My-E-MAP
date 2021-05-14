@@ -1,0 +1,25 @@
+.login-form {
+  border: 1px solid #222222;
+  border-radius: 6px;
+  padding: 3%;
+  margin: 3%;
+}
+
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-box1,
+.login-box2 {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  padding: 2% 3% 2% 3%;
+}
+
+.login-box1 label,
+.login-box2 label {
+  line-height: 8vh;
+}
